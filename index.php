@@ -1,133 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Systems Engineer | App Blocking Specialist</title>
+  <meta name="description" content="Portfolio of a mobile app developer specializing in persistent app blocking, FamilyControls, Accessibility Services, and system-level integrations." />
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#0f172a; color:#e5e7eb; line-height:1.6; }
+    header { padding:80px 20px; text-align:center; background:linear-gradient(135deg,#020617,#020617); }
+    h1 { font-size:2.5rem; margin-bottom:10px; }
+    h2 { color:#38bdf8; margin-top:40px; }
+    p { max-width:900px; margin:0 auto 20px; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+    .card { background:#020617; border-radius:12px; padding:25px; margin-bottom:20px; box-shadow:0 10px 25px rgba(0,0,0,.3); }
+    ul { padding-left:20px; }
+    li { margin-bottom:10px; }
+    .btn { display:inline-block; margin-top:20px; padding:12px 24px; background:#38bdf8; color:#020617; text-decoration:none; border-radius:8px; font-weight:bold; }
+    footer { text-align:center; padding:30px; background:#020617; color:#94a3b8; }
+  </style>
+</head>
+<body><header>
+  <h1>Yusuf Kamaldeen</h1>
+  <p>Flutter-focused Mobile Systems Engineer • App Blocking & OS‑Level Integrations</p>
+  <a class="btn" href="#contact">Hire Me</a>
+</header><section>
+  <h2>About Me</h2>
+  <p>
+    I am <strong>Yusuf Kamaldeen</strong>, a Flutter‑first mobile developer specializing in <strong>system‑level app blocking</strong> and persistence‑critical features on iOS and Android. 
+    I build discipline‑focused applications where restrictions must survive reboots, battery optimizations, and OS edge cases—without compromising user experience.
+  </p>
+</section><section>
+  <h2>Relevant Expertise</h2>
+  <div class="card">
+    <h3>iOS (Swift / Flutter)</h3>
+    <ul>
+      <li>ManagedSettings, FamilyControls, DeviceActivity integration</li>
+      <li>Persistent app blocking across device restarts</li>
+      <li>Schedule-based enforcement without re-authentication</li>
+      <li>System-compliant custom restriction overlays</li>
+    </ul>
+  </div>  <div class="card">
+    <h3>Android (Kotlin / Flutter)</h3>
+    <ul>
+      <li>UsageStats + Accessibility Service based blockers</li>
+      <li>BootReceiver & foreground services for reboot persistence</li>
+      <li>OEM battery optimization handling (Samsung, Xiaomi, Tecno)</li>
+      <li>Auto-start and service self-recovery logic</li>
+    </ul>
+  </div>
+</section><section>
+  <h2>GodFirst – Targeted Solution</h2>
+  <div class="card">
+    <ul>
+      <li>Blocking survives device restarts on both platforms</li>
+      <li>Blocks remain active until prayer completion</li>
+      <li>Custom block screen: "GodFirst has blocked this app. Open the app to pray."</li>
+      <li>Deep-link button to launch GodFirst instantly</li>
+      <li>Clean, documented, and scalable codebase</li>
+    </ul>
+  </div>  <div class="card">
+    <h3>Flutter‑Style Mock UI Screens</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:20px;">
+      <div style="background:#020617;border-radius:24px;padding:18px;text-align:center;">
+        <svg width="100%" height="240" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
+          <rect width="300" height="240" rx="28" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+          <text x="150" y="60" fill="#38bdf8" font-size="14" text-anchor="middle">GodFirst</text>
+          <text x="150" y="100" fill="#e5e7eb" font-size="13" text-anchor="middle">App Blocked</text>
+          <text x="150" y="125" fill="#94a3b8" font-size="11" text-anchor="middle">Open the app to pray</text>
+          <rect x="70" y="160" width="160" height="36" rx="18" fill="#38bdf8"/>
+          <text x="150" y="183" fill="#020617" font-size="12" text-anchor="middle">OPEN GODFIRST</text>
+        </svg>
+        <p>Flutter‑style custom block overlay with deep link.</p>
+      </div><div style="background:#020617;border-radius:24px;padding:18px;text-align:center;">
+    <svg width="100%" height="240" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="300" height="240" rx="28" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+      <text x="150" y="70" fill="#e5e7eb" font-size="14" text-anchor="middle">Prayer Session</text>
+      <text x="150" y="110" fill="#38bdf8" font-size="12" text-anchor="middle">Block Active</text>
+      <text x="150" y="135" fill="#94a3b8" font-size="11" text-anchor="middle">Ends after completion</text>
+    </svg>
+    <p>Schedule‑aware UI reflecting active prayer state.</p>
+  </div>
 
-    <title>Signin Template for Bootstrap</title>
+  <div style="background:#020617;border-radius:24px;padding:18px;text-align:center;">
+    <svg width="100%" height="240" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="300" height="240" rx="28" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+      <text x="150" y="90" fill="#e5e7eb" font-size="14" text-anchor="middle">System Service</text>
+      <text x="150" y="120" fill="#38bdf8" font-size="12" text-anchor="middle">Running</text>
+      <text x="150" y="145" fill="#94a3b8" font-size="11" text-anchor="middle">Auto‑started after reboot</text>
+    </svg>
+    <p>Flutter‑driven logic powering persistent native services.</p>
+  </div>
+</div>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      
-    <![endif]-->
-    
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/"></script>
-<![endif]-->
-<script src="jQuery 3.3.1.js"></script>
-
-  </head>
-  
-
-  <body>
-      
-    
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Farm 101 African initiative</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">GG NETWORK</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
-        </div>
-      </div>
-    </nav>
-
-
-    <div class="bg" >
-
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus >
-        <label for="inputPassword" class="sr-only" Padding="5">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div> 
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-    </div> <!-- /container -->
-
-
-    
-    
-    
-    <!-- /container -->
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+  </div>
+</section><section>
+  <h2>Technical Approach</h2>
+  <div class="card">
+    <h3>iOS (Swift / Flutter)</h3>
+    <ul>
+      <li>Use <strong>FamilyControls + ManagedSettings</strong> for system‑compliant app blocking</li>
+      <li>Persist restrictions via <strong>DeviceActivity</strong> schedules stored securely</li>
+      <li>No repeated authentication after reboot once permission is granted</li>
+      <li>Custom Flutter‑triggered overlay UI instead of default restriction screen</li>
+    </ul>
+  </div>  <div class="card">
+    <h3>Android (Kotlin / Flutter)</h3>
+    <ul>
+      <li><strong>Accessibility Service</strong> + UsageStats for real‑time app interception</li>
+      <li><strong>BOOT_COMPLETED receiver</strong> to restart services after reboot</li>
+      <li>Foreground service with self‑healing watchdog</li>
+      <li>OEM battery optimization exemptions (Samsung, Xiaomi, Tecno)</li>
+    </ul>
+  </div>  <div class="card">
+    <h3>Flutter Architecture</h3>
+    <ul>
+      <li>Platform channels for native enforcement logic</li>
+      <li>Single source of truth for prayer schedules</li>
+      <li>Clean separation of UI, domain, and system layers</li>
+      <li>Well‑documented, maintainable codebase</li>
+    </ul>
+  </div>
+</section><section>
+  <h2>Why Choose Me</h2>
+  <p>
+    This project requires deep OS knowledge, not just UI skills. I specialize in building <strong>restriction systems that never fail</strong>—even after reboots, battery kills, or OEM interference. 
+    I communicate clearly, document thoroughly, and deliver production‑ready solutions built for trust‑critical apps like GodFirst.
+  </p>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Name:</strong> Yusuf Kamaldeen</p>
+    <p><strong>WhatsApp:</strong> 08032140450</p>
+    <p><strong>Stack:</strong> Flutter, Swift, Kotlin</p>
+  </div>
+</section><footer>
+  <p>© 2025 Mobile Systems Engineer. Built for GitHub Pages.</p>
+</footer></body>
+</html>        
